@@ -17,6 +17,10 @@
 
 //http://aplus.rs/2013/state-restoration-in-ios-6-without-storyboards/
 
+
+//注意：
+//状态恢复不是持久化存储，换句话说，用户正常关闭App的时候，状态恢复是不会起到任何作用的，因为用户正常关闭App，理所应当这次操作的状态都应该清除。
+
 @interface AppDelegate ()
 
 @end
